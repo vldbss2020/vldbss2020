@@ -1,0 +1,35 @@
+.jumbotronxx{
+    padding-top:0px;padding-bottom:0px;
+    margin-bottom:0px;color:inherit;
+    min-height: 300px;
+    background-color:#eee
+}
+.jumbotronxx .h1,.jumbotronxx h1{color:inherit}
+.jumbotronxx p{
+    margin-bottom:0px;font-size:21px;font-weight:200;
+}
+.jumbotronxx>hr{border-top-color:#d5d5d5}
+.container .jumbotronxx,.container-fluid .jumbotronxx{border-radius:6px}
+.jumbotronxx .container{max-width:100%}
+@media screen and (min-width:768px){
+    .jumbotronxx{
+        padding-top:0px;padding-bottom:0px;
+    }
+    .container .jumbotronxx,.container-fluid .jumbotronxx{
+        padding-right:0px;padding-left:0px;
+    }
+    .jumbotronxx .h1,.jumbotronxx h1{
+        font-size:63px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .jumbotronxx{
+        min-height: 200px;
+    }
+    .jumbotronxx p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
