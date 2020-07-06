@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VLDB Summer School 2020</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vldb.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <style>
+        #title1 {
+            color: white;
+            text-align: center;
+        }
+        #title1 h1{
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        #title2 {
+            color: white;
+            text-align: center;
+        }
+        #title2 h1{
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        #title3 {
+            color: white;
+            text-align: center;
+        }
+        #title3 h1{
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .jumbotron{
+            min-height: 300px;
+            margin-bottom: 10px;
+        }
+
+
+        .carousel-indicators{
+            position:absolute;bottom:10px;
+            left:90%;z-index:15;width:60%;
+            padding-left:0;margin-left:-30%;
+            text-align:center;list-style:none
+        }
+
+        .web_bg{
+
+            /*background-color: #fff;*/
+            background-repeat:no-repeat, no-repeat, no-repeat;
+            background-size:130px 80px , 130px 80px,100% 100%;
+            background-position:left top,right top,0 0 ;
+            /*background-size:cover;*/
+        }
+
+
+        .c-title1 {
+            border-bottom: 2px solid #c30d23;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        .c-title1 h4{
+            text-align: center;
+            font-weight:bold
+        }
+        .c-context1 h5{
+            font-weight:bold
+        }
+        .c-context1 p {
+            /*text-indent: 2em;*/
+            margin-bottom: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div id="mobile-menu" class="mobile-nav visible-xs visible-sm">
+<!--            <nav class="navbar navbar-inverse navbar-fixed-top">-->
+<!--                <div class="container-fluid">-->
+<!--                    <div class="navbar-header">-->
+<!--                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"-->
+<!--                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
+<!--                            <span class="sr-only">Toggle navigation</span>-->
+<!--                            <span class="icon-bar"></span>-->
+<!--                            <span class="icon-bar"></span>-->
+<!--                            <span class="icon-bar"></span>-->
+<!--                        </button>-->
+<!--                        <a class="navbar-brand" href="#">VLDB Summer 2020</a>-->
+<!--                    </div>-->
+<!--                    <div id="navbar" class="navbar-collapse collapse">-->
+<!--                        <ul class="nav navbar-nav navbar-right">-->
+<!--                            <li><a href="javascript:void(0)" class="nav-miao" data-miao="#introduction" href="javascript:void(0)" data-toggle="tab" data-target="#intro">简介</a></li>-->
+<!--                            <li><a href="javascript:void(0)" class="nav-miao" data-miao="#register" data-toggle="tab" data-target="#reg">报名&报到</a></li>-->
+<!--                            <li><a href="javascript:void(0)" data-toggle="tab" data-target="#talk">讲师简介</a></li>-->
+<!--                            <li><a href="javascript:void(0)" data-toggle="tab" data-target="#schedule">课程安排</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </nav>-->
+        </div>
+    </div>
+
+
+        <div id="carousel-example-generic" class="carousel slide"  data-ride="carousel" >
+            <!-- Indicators background-image: url(img/vldb-bg_1.png);-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+
+            <div class="carousel-inner" >
+
+                <div class="item active web_bg jumbotron"  style="background-image:url(img/ccf_1.png), url(img/sdu.png),url(img/qin2_x.jpg) ;">
+
+                    <div class="row " id="title1" >
+                        <h1>VLDB Summer School 2020</h1>
+                        <p style="font-size: 45px">(Blockchain Database)</p>
+                        <p>
+                        <p><b>2020.07.13 - 2020.07.17</b>
+                        <p><b> 在线会议</b>
+                        <div class="org">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-3" style="text-align: center">主办单位<br>中国计算机学会数据库专委会</div>
+                            <div class="col-md-2" style="text-align: center"></div>
+                            <div class="col-md-3" style="text-align: center">承办单位<br>山东大学计算机科学与技术学院</div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item web_bg jumbotron" style="background-image:url(img/ccf_1.png),  url(img/sdu.png) ,url(img/qin6.jpg);">
+                    <div class="row " id="title2" >
+                        <h1>VLDB Summer School 2020</h1>
+                        <p style="font-size: 45px">(Blockchain Database)</p>
+                        <p>
+                        <p><b>2020.07.13 - 2020.07.17</b>
+                        <p><b> 在线会议</b>
+                        <div class="org">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-3" style="text-align: center">主办单位<br>中国计算机学会数据库专委会</div>
+                            <div class="col-md-2" style="text-align: center"></div>
+                            <div class="col-md-3" style="text-align: center">承办单位<br>山东大学计算机科学与技术学院</div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item web_bg jumbotron" style="background-image:url(img/ccf_1.png),  url(img/sdu.png),url(img/qin7.jpg);">
+                    <div class="row web_bg" id="title3" >
+                        <h1>VLDB Summer School 2020</h1>
+                        <p style="font-size: 45px">(Blockchain Database)</p>
+                        <p>
+                        <p><b>2020.07.13 - 2020.07.17</b>
+                        <p><b> 在线会议</b>
+                        <div class="org">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-3" style="text-align: center">主办单位<br>中国计算机学会数据库专委会</div>
+                            <div class="col-md-2" style="text-align: center"></div>
+                            <div class="col-md-3" style="text-align: center">承办单位<br>山东大学计算机科学与技术学院</div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-md-2 sidebar navbar-left visible-lg visible-md">
+            <h4></h4>
+            <h4>简介</h4>
+            <ul class="nav nav-stacked menu collapse navbar-collapse" >
+                <li class="leaf" style="align-items: center"><a id="nav-intro" class="nav-miao" data-miao="#introduction" href="javascript:void(0)" data-toggle="tab" data-target="#intro">首页</a></li>
+                <li class="leaf"><a id="nav-org"  class="nav-miao"  data-miao="#org" href="javascript:void(0)" data-toggle="tab" data-target="#intro">组织机构</a></li>
+                <li class="leaf"><a id="nav-contact"  class="nav-miao" data-miao="#contact" href="javascript:void(0)" data-toggle="tab" data-target="#intro">联系我们</a></li>
+            </ul>
+            <h4>报名&报到</h4>
+            <ul class="nav nav-stacked menu collapse navbar-collapse">
+                <li class="leaf"><a href="javascript:void(0)" class="nav-miao" data-miao="#register" data-toggle="tab" data-target="#reg">报名须知</a></li>
+                <li class="leaf"><a href="javascript:void(0)" class="nav-miao" data-miao="#login" data-toggle="tab" data-target="#reg">报到须知</a></li>
+            </ul>
+            <h4>讲师&课程</h4>
+            <ul class="nav nav-stacked menu collapse navbar-collapse">
+                <li class="leaf"><a href="javascript:void(0)" class="nav-miao" data-miao="#talk" data-toggle="tab" data-target="#talk">讲师简介</a></li>
+                <li class="leaf"><a href="javascript:void(0)" class="nav-miao" data-miao="#schedule" data-toggle="tab" data-target="#schedule">课程安排</a></li>
+            </ul>
+        </div>
+        <div class="col-default"></div>
+        <div class="col-md-9  tab-content">
+            <div class="tab-pane fade in active" id="intro">
+                <div class="row" id="introduction">
+                    <div class="c-title">
+                        <h4>简介</h4>
+                    </div>
+                    <div class="c-context">
+                        <p>VLDB（Very Large Data Bases）中国数据库学院由VLDB基金会赞助成立，下属于中国计算机学会数据库专业委员会,
+                            旨在为中国从事或有志于从事数据库理论与技术研究的教师、学者和研究生提供一个学习和交流的机会。学院每年不定期地邀请数据库及相关领域内国际知名的学者来中国讲学，以促进我国对国际数据库学科前沿全面及时了解，并在此前提下，立足应用研发具有特色的数据管理技术和系统。</p>
+                        <p>第19届VLDB暑期学校将于2020年7月13日至7月17日举办，由山东大学计算机科学与技术学院承办，主题聚焦区块链数据管理技术中的关键问题。
+                            主讲教授是国际上享有很高学术声誉的区块链数据库专家：
+                            香港浸会大学教授 Jianliang Xu；华东师范大学教授 金澈清；新加坡科技设计大学助理教授 Dinh Tien Tuan Anh；新加坡国立大学高级研究员 Dumitrel Loghin。本届暑期学校还将开展形式多样的前沿讲座和研讨，为学员提供与国际知名学者的充分交流机会。
+
+                        </p>
+                        <p><strong>重要日期</strong>
+                        <ul>
+                            <li>报名截止：<span style="color: red; font-weight: 700;">2020.06.28</span>（<a href="javascript:void(0)" class="nav-miao" data-miao="#register" data-toggle="tab" data-target="#reg">报名信息与报名表下载</a>）
+                            </li>
+                            <li>录取通知：<span style="color: red; font-weight: 700;">2020.07.05</span>
+                            </li>
+                            <li>
+                                学生报到：<span style="color: red; font-weight: 700;">2020.07.12</span>
+                            </li>
+                            <li>
+                                暑期课程：<span style="color: red; font-weight: 700;">2020.07.13 - 2020.07.17</span>
+                            </li>
+                        </ul>
+                        </p>
+
+                        <p>我们热烈欢迎全国各地从事数据库研究的研究生和青年教师报名参加。</p>
+                    </div>
+                </div>
+                <div class="row" id="org">
+                    <div class="c-title">
+                        <h4>组织机构</h4>
+                    </div>
+                    <div class="c-context">
+                        <p><h5>VLDB 中国数据库学院</h5></p>
+                        <p>院 长：杜小勇 教授（中国人民大学）</p>
+                        <p><h5>本期组委会</h5></p>
+                        <p>学术委员会主席：杜小勇  教授（中国人民大学） 李战怀 教授（西北工业大学）</p>
+                        <p>组织委员会主席：彭朝晖  副教授（山东大学） 陈晋川 副教授（中国人民大学）</p>
+                        <p><h5>主办单位</h5></p>
+                        <p>中国计算机学会数据库专委会</p>
+                        <p><h5>承办单位</h5></p>
+                        <p>山东大学计算机科学与技术学院</p>
+                    </div>
+                </div>
+                <div class="row" id="contact">
+                    <div class="c-title">
+                        <h4>联系我们</h4>
+                    </div>
+                    <div class="c-context">
+                        <p><h5>组委会联系方式</h5></p>
+                        <p>联系人:&nbsp;&nbsp;&nbsp;王艺霖    13697622371 </p>
+<!--                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王艺霖    13697622371</p>-->
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王芳珺    18263813150</p>
+                        <p>邮&nbsp;&nbsp;&nbsp;&nbsp;箱: &nbsp;&nbsp;vldbss2020@163.com</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade in" id="reg">
+                <div class="row" id="register">
+                    <div class="c-title">
+                        <h4>报名须知</h4>
+                    </div>
+                    <div class="c-context">
+                        <ol class="apply-list">
+                            <li>
+                                本年度计划招收学员100名。学员录取由VLDB 中国数据库学院负责，将根据申请条件以及学校地区平衡的原则进行录取。
+                            </li>
+                            <li>申请条件：从事数据库研究的研究生和青年教师，需由中国计算机学会数据库专委会委员推荐，研究生需导师同意（若导师为数据库专委会委员，导师可同时作为推荐人）。</li>
+                            <li>本次会议为线上会议，免学员报名费。</li>
+                            <li>请报名者填写报名表（<a href="VLDB_2020_Summer_School_Registration.doc" style="color: red; font-weight: 700;">点击下载</a>）<br>
+                                因今年情况特殊，报名表无需所在单位的公章，但请填写导师、推荐人联系方式和意见，
+                                发送电子版（word）至：vldbss2020@163.com，同时必须将报名表抄送给导师和推荐人，邮件主题设为：VLDB 2020 Summer School报名表（若48小时之内未收到组委会回复，请检查收件人邮箱或联系组委会）。</li>
+                            <li>报名截止时间：2020年6月28日23:59（以邮件发送时间为准）。</li>
+                            <li>录取通知将于2020年7月5日发出。（<a style="color: red;font-weight: 700;">录取通知已发出，如果未收到请查看垃圾邮箱或联系会务组</a>）
+                            <li>上课方式与时间：7月13-17日 在线会议。</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row" id="login">
+                    <div class="c-title">
+                        <h4>报到须知</h4>
+                    </div>
+                    <div class="c-context">
+                        <h5 class="report-notice">请所有学员按邮件通知要求于7月12日9点至17点在线报到。</h5>
+                        <h3> </h3>
+                        <h3> </h3>
+                        <!--
+                        <p>缴费方式：<strong>现场缴费</strong></p>
+                    -->
+                        <!--                        <p>来校路线：<strong>地铁10号线（海淀黄庄站）、地铁4号线（海淀黄庄站）</strong></p>-->
+<!--                        <div style="width:100%;height:550px;border:#ccc solid 1px; margin-top: 20px;" id="dituContent"></div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade in" id="arrive">
+            </div>
+            <div class="tab-pane fade in" id="talk">
+                <div class="c-title">
+                    <h4>讲师简介</h4>
+                </div>
+                <div style="display: none;">
+                    <img src="" alt="" width="150" />
+                </div>
+
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a href='http://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu (Hong Kong Baptist University)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_Xujianliang.png" alt="" width="150" />
+
+                    </div>
+                    <div class="speaker-pos">
+<!--                        <a href='http://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu (Hong Kong Baptist University)</a>-->
+                    </div>
+                    <!--
+                                                <div class="speaker-info c-context">
+                                                    <h4>Abstract: </h4>
+                                                    <p>Day 1:</p>
+                                                    <p>Session 1: Querying Static Geo-textual Data</p>
+                                                    <p>Session 2: Querying Geo-textual Data Stream</p>
+                                                    <p>Session 3: Exploring Geo-textual Data</p>
+                                                    <p>Day 2:</p>
+                                                    <p>Session 1: Location Extraction</p>
+                                                    <p>Session 2: User mobility behavior modeling</p>
+                                                    <p>Session 3: Location Recommendation</p>
+                                                </div>
+                    -->
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p> Prof. Xu joined the Computer Science Department of Hong Kong Baptist University (HKBU) after he received his PhD degree in Computer Science from Hong Kong University of Science and Technology in 2002. He obtained his BEng degree in Computer Science and Engineering from Zhejiang University, Hangzhou, China in 1998. Prior to that, he received his secondary education from Suzhou High School from 1991 to 1994. Prof. Xu has been a visiting scholar at Pennsylvania State University, University Park (in Summer 2005) and a senior visiting fellow at Fudan University (in Winter 2009). He is serving as a director of the Blockchain and FinTech Lab and leads the Database Research Group at Hong Kong Baptist University.</p>
+
+                    </div>
+                </div>
+
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a href='https://faculty.ecnu.edu.cn/_s37/jcq/main.psp'>Prof. Cheqing Jin (East China Normal University)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_Jincq.png" alt="" width="150" />
+                    </div>
+                    <div class="speaker-pos">
+<!--                        <a href='https://faculty.ecnu.edu.cn/_s37/jcq/main.psp'>Prof. Cheqing Jin (East China Normal University)</a>-->
+                    </div>
+                    <!--
+                                                <div class="speaker-info c-context">
+                                                    <h4>Abstract: </h4>
+                                                    <p>Day 1:</p>
+                                                    <p>Session 1: Querying Static Geo-textual Data</p>
+                                                    <p>Session 2: Querying Geo-textual Data Stream</p>
+                                                    <p>Session 3: Exploring Geo-textual Data</p>
+                                                    <p>Day 2:</p>
+                                                    <p>Session 1: Location Extraction</p>
+                                                    <p>Session 2: User mobility behavior modeling</p>
+                                                    <p>Session 3: Location Recommendation</p>
+                                                </div>
+                    -->
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p>Cheqing Jin, professor and vice dean of the School of Data Science and Engineering, East China Normal University. He is a member of China Computer Federation Technical Committee on Databases. His research interests include blockchain, data stream management, location-based services, uncertain data management and so on. He was the PI of several National Natural Science Foundations, and has co-authored 2 monographs and more than 100 papers. He received the first-level prize for Science and Technology of Shanghai, and the second-level prize for Science and Technology of the Ministry of education. He was guest editor of special issue “Blockchain Database Management” of Journal of Software, and PC co-chair of BlockDM 2020 workshop.</p>
+
+                    </div>
+                </div>
+                <!--                新加三位讲师-->
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a href='http://bit.ly/CMbcDB'>Dr. C. Mohan (Tsinghua University)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_C_Mohan.png" alt="" width="150" />
+
+                    </div>
+                    <div class="speaker-pos">
+                        <!--                        <a href='http://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu (Hong Kong Baptist University)</a>-->
+                    </div>
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p> Dr. C. Mohan is currently a Distinguished Visiting Professor at Tsinghua University in China and an Honorary Advisor to the Tamil Nadu e-Governance Agency (TNeGA) in India. He retired in June 2020 from being an IBM Fellow at the IBM Almaden Research Center in Silicon Valley. He was an IBM researcher for 38.5 years in the database, blockchain and related areas, impacting numerous IBM and non-IBM products, the research and academic communities, and standards, especially with his invention of the well-known ARIES family of database locking and recovery algorithms, and the Presumed Abort distributed commit protocol. This IBM (1997), ACM (2002) and IEEE (2002) Fellow has also served as the IBM India Chief Scientist (2006-2009). In addition to receiving the ACM SIGMOD Edgar F. Codd Innovations Award (1996), the VLDB 10 Year Best Paper Award (1999) and numerous IBM awards, Mohan was elected to the US and Indian National Academies of Engineering (2009) and named an IBM Master Inventor (1997). This Distinguished Alumnus of IIT Madras (1977) received his PhD at the University of Texas at Austin (1981). He is an inventor of 50 patents. During the last many years, he focused on Blockchain, Big Data and HTAP technologies (http://bit.ly/CMbcDB, http://bit.ly/CMgMDS). Since 2017, he has been an evangelist of permissioned blockchains and the myth buster of permissionless blockchains. In late 2019, he became an Honorary Advisor to TNeGA of Chennai for its blockchain and other projects. Since 2016, Mohan has been a Distinguished Visiting Professor of China’s prestigious Tsinghua University. He has served on the advisory board of IEEE Spectrum, and on numerous conference and journal boards. Mohan is a frequent speaker in North America, Europe and Asia. He has given talks in 43 countries. He is very active on social media and has a huge network of followers. More information can be found in the Wikipedia page at http://bit.ly/CMwIkP and resume at http://bit.ly/CMoRes.</p>
+
+                    </div>
+                </div>
+
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a>SVP. Wei Hu (Oracle Corporation)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_WeiHu.png" alt="" width="150" />
+
+                    </div>
+                    <div class="speaker-pos">
+                        <!--                        <a href='http://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu (Hong Kong Baptist University)</a>-->
+                    </div>
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p> Wei Hu is the Senior Vice President of Development at Oracle Corporation. He has been with Oracle since 1998 and leads the development of Database High Availability and technologies related to Blockchain, Microservices, Sharding, and Globally Distributed Databases.
+
+                            Mr. Hu has B.S. and M.S. degrees from the Massachusetts Institute of Technology (MIT), holds over 30 patents, and is the author and co-author of several books and papers.</p>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a href='https://www.cs.sdu.edu.cn/info/1070/2796.htm'>Prof. XiuZhen Cheng (Shandong University)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_XiuzhenCheng.png" alt="" width="150" />
+
+                    </div>
+                    <div class="speaker-pos">
+                        <!--                        <a href='http://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu (Hong Kong Baptist University)</a>-->
+                    </div>
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p>Prof. Xiuzhen Cheng received her MS and PhD degrees in computer science from the University of Minnesota -- Twin Cities, in 2000 and 2002, respectively. She is a professor in School of Computer Science and Technology, Shandong University, China. Her current research focuses on Blockchain computing, intelligent Internet of Things, wireless and mobile security, and algorithm design and analysis. She is the founder and steering committee chair of the International Conference on Wireless Algorithms, Systems, and Applications (WASA, launched in 2006).  She served/is serving on the editorial boards of several technical journals (e.g. IEEE Transactions on Computers, IEEE Transactions on Parallel and Distributed Systems, IEEE Transactions on Wireless Communications, IEEE Wireless Communications Magazine) and the technical program committees of many professional conferences/workshops (e.g. ACM Mobihoc, ACM Mobisys, IEEE INFOCOM, IEEE ICDCS, IEEE ICC, IEEE/ACM IWQoS). She also chaired several international conferences (e.g. ACM Mobihoc'14, IEEE PAC'18). Xiuzhen worked as a program director for the US National Science Foundation (NSF) from April to October in 2006 (full time), and from April 2008 to May 2010 (part time). She is a Fellow of IEEE. </p>
+
+                    </div>
+                </div>
+
+
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a href='https://istd.sutd.edu.sg/people/faculty/dinh-tien-tuan-anh'>Dr. Dinh Tien Tuan Anh (Singapore University of Technology and Design)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_DinhTien.png" alt="" width="150" />
+
+                    </div>
+                    <div class="speaker-pos">
+<!--                        <a href='https://istd.sutd.edu.sg/people/faculty/dinh-tien-tuan-anh'>Dr. Dinh Tien Tuan Anh (Singapore University of Technology and Design)</a>-->
+                    </div>
+                    <!--
+                                                <div class="speaker-info c-context">
+                                                    <h4>Abstract: </h4>
+                                                    <p>Day 1:</p>
+                                                    <p>Session 1: Querying Static Geo-textual Data</p>
+                                                    <p>Session 2: Querying Geo-textual Data Stream</p>
+                                                    <p>Session 3: Exploring Geo-textual Data</p>
+                                                    <p>Day 2:</p>
+                                                    <p>Session 1: Location Extraction</p>
+                                                    <p>Session 2: User mobility behavior modeling</p>
+                                                    <p>Session 3: Location Recommendation</p>
+                                                </div>
+                    -->
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p> Dr. Dinh Tien Tuan Anh is an Assistant Professor at Singapore University of Technology and Design. His research lies at the intersection of distributed systems, databases and security. He is interested in building and applying security primitives, either based on cryptography or trusted hardware, to improve both security and performance of large scale systems. His PhD was in applying formal methods to verify security properties of P2P systems. His latest interest is centered around blockchains.</p>
+
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="keynote-list">
+
+                    <p class="keynote-title"><a href='https://www.comp.nus.edu.sg/~dumitrel/'>Dr. Dumitrel Loghin (National University of Singapore)</a></p>
+                    <div class="keynote-avatar">
+                        <img src="./img/lectures/Vldb2020/vldb_Dumitrel.png" alt="" width="150" />
+                    </div>
+                    <div class="speaker-pos">
+<!--                        <a href='https://www.comp.nus.edu.sg/~dumitrel/'>SRA. Dumitrel Loghin (National University of Singapore)</a>-->
+                    </div>
+                    <!--
+                                                <div class="speaker-info c-context">
+                                                    <h4>Abstract: </h4>
+                                                    <p>Day 1:</p>
+                                                    <p>Session 1: Querying Static Geo-textual Data</p>
+                                                    <p>Session 2: Querying Geo-textual Data Stream</p>
+                                                    <p>Session 3: Exploring Geo-textual Data</p>
+                                                    <p>Day 2:</p>
+                                                    <p>Session 1: Location Extraction</p>
+                                                    <p>Session 2: User mobility behavior modeling</p>
+                                                    <p>Session 3: Location Recommendation</p>
+                                                </div>
+                    -->
+                    <div class="speaker-info c-context1">
+                        <br>
+                        <h4>Biography: </h4>
+                        <p> Dumitrel Loghin received his BEng and MEng degrees from the University Politehnica of Bucharest, Romania, in 2010 and 2012, respectively, and the PhD degree in computer science from the National University of Singapore, Singapore, in 2017. He is currently a senior research fellow in the Database Systems Research Group at School of Computing, National University of Singapore. He is working under the supervision of Distinguished Professor Beng Chin Ooi. His research interests include parallel and distributed systems, embedded systems, blockchain and distributed databases, cloud and edge computing, and the time-energy performance of computer systems.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade in" id="schedule">
+                <div class="c-title">
+                    <h4>课程安排</h4>
+                </div>
+                <p class="plan-attr">日期：2020年7月13日至7月17日</p>
+                <!--
+                <p class="plan-attr">主题：数据准备与数据分析</p>
+            -->
+                <p class="plan-attr">授课方式：在线会议</p>
+                <!-- July 13 -->
+                <table class="table plan-table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th colspan="2">July 13, 2020</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="width:170px;">8:30 ~ 9:00</td>
+                        <td>Opening Welcome</td>
+                    </tr>
+
+<!--                    <tr>-->
+<!--                        <td class="td-break" colspan="2">Coffee Break (Time: 9:00 ~ 9:20)</td>-->
+<!--                    </tr>-->
+                    <tr>
+                        <td >9:10 ~ 10:30</td>
+                        <td><strong style="font-weight: bold;"> Introduction to Blockchains - Part I</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Jianliang Xu, Hong Kong Baptist University) </td>
+                    </tr>
+                    <tr>
+                        <td>10:50 ~ 12:00</td>
+                        <td><strong style="font-weight: bold;"> Introduction to Blockchains - Part II</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Jianliang Xu, Hong Kong Baptist University) </td>
+                    </tr>
+                    <tr>
+                        <td class="td-break" colspan="2">Lunch (Time: 12:00 ~ 14:00)</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 ~ 15:30</td>
+                        <td><strong style="font-weight: bold;">Bitcoin and Public Blockchains</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Jianliang Xu, Hong Kong Baptist University)</td>
+                    </tr>
+                    <tr>
+                        <td>15:50 ~ 17:00</td>
+                        <td><strong style="font-weight: bold;">Integrity-Assured Query Processing in Blockchain Systems</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Jianliang Xu, Hong Kong Baptist University)</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!-- July 14 -->
+                <table class="table plan-table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th colspan="2">July 14, 2020</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="width:170px;">9:00 ~ 10:30</td>
+                        <td><strong style="font-weight: bold;"> Blockchain Databases – Part I</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Cheqing Jin, East China Normal University) </td>
+                    </tr>
+                    <tr>
+                        <td>10:50 ~ 12:00</td>
+                        <td><strong style="font-weight: bold;"> Blockchain Databases – Part II</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Cheqing Jin, East China Normal University) </td>
+                    </tr>
+                    <tr>
+                        <td class="td-break" colspan="2">Lunch (Time: 12:00 ~ 14:00)</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 ~ 15:30</td>
+                        <td><strong style="font-weight: bold;">Permissioned Blockchains – Part I</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Cheqing Jin, East China Normal University) </td>
+                    </tr>
+                    <tr>
+                        <td>15:50 ~ 17:00</td>
+                        <td><strong style="font-weight: bold;">Permissioned Blockchains – Part II</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Cheqing Jin, East China Normal University) </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!-- July 15 -->
+                <table class="table plan-table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th colspan="2">July 15, 2020</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td>9:00 ~ 10:00</td>
+                        <td><strong style="font-weight: bold;">State of Permissionless and Permissioned Blockchains: Myths and Reality</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(C. Mohan, Tsinghua University) </td>
+                    </tr>
+                    <tr>
+                        <td>10:00 ~ 11:00</td>
+                        <td><strong style="font-weight: bold;">Architecture & Design of the Oracle Converged Database with Blockchain</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Wei Hu, Oracle Corporation) </td>
+                    </tr>
+                    <tr>
+                        <td>11:00 ~ 12:00</td>
+                        <td><strong style="font-weight: bold;">Blockchain-Enabled Data Management for Supply Chain</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(XiuZhen Cheng, Shandong University) </td>
+                    </tr>
+                    <tr>
+                        <td class="td-break" colspan="2">Lunch (Time: 12:00 ~ 14:00)</td>
+                    </tr>
+                    <tr>
+                        <td style="width:170px;">14:00 ~ 17:00</td>
+                        <td><strong style="font-weight: bold;">  Group Discussion</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!-- July 16 -->
+                <table class="table plan-table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th colspan="2">July 16, 2020</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="width:170px;">9:00 ~ 10:30</td>
+                        <td><strong style="font-weight: bold;"> BLOCKBENCH and Sharding Blockchains</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Dinh Tien Tuan Anh, Singapore University of Technology and Design) </td>
+                    </tr>
+                    <tr>
+                        <td>10:50 ~ 12:00</td>
+                        <td><strong style="font-weight: bold;"> State Channel Protocols for Crypto-Currencies</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Dinh Tien Tuan Anh, Singapore University of Technology and Design) </td>
+                    </tr>
+                    <tr>
+                        <td class="td-break" colspan="2">Lunch (Time: 12:00 ~ 14:00)</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 ~ 15:30</td>
+                        <td><strong style="font-weight: bold;"> Performance Analysis of Permissioned Blockchains – Part I</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Dumitrel Loghin, National Univesrity of Singapore) </td>
+                    </tr>
+                    <tr>
+                        <td>15:50 ~ 17:00</td>
+                        <td><strong style="font-weight: bold;"> Performance Analysis of Permissioned Blockchains – Part II</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Dumitrel Loghin, National Univesrity of Singapore) </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+                <!-- July 17 -->
+                <table class="table plan-table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th colspan="2">July 17, 2020</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="width:170px;">9:00 ~ 11:00</td>
+                        <td><strong style="font-weight: bold;">Student Final Reporting & Interactive Research Discussion</strong> </td>
+                    </tr>
+                    <tr>
+                        <td>11:00 ~ 11:30</td>
+                        <td>Closing</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table">
+            <tr><th></th></tr>
+        </table>
+    </div>
+    <div class="row footer">
+        <div class="col-md-12">
+            <p>联系地址：青岛市即墨区滨海公路72号山东大学青岛校区第周苑C座 邮编：266237</p>
+            <p>Copyright © 山东大学计算机科学与技术学院</p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=w4p3wADer4MANYVsNpt2LdPnHscvihau"></script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+        // marker.CK();
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(120.697,36.3691);//定义一个中心点坐标   120.697667,36.369109
+
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+
+
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.disableDoubleClickZoom();//禁用鼠标双击放大
+        map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
+
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+    }
+
+    var markerArr = [{title:"山东大学青岛校区计算机科学与技术学院",content:"VLDB&nbsp;Summer&nbsp;School&nbsp;2020",point:"120.697667|36.3691",isOpen:1,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+    ];
+    //创建marker
+    function addMarker(){
+        var mmp = null;
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _iw.disableAutoPan();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+
+        }
+        return mmp;
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://api.map.baidu.com/lbsapi/creatmap/images/us_cursor.gif", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</body>
+</html>
